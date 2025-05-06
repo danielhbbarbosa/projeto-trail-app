@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+header {
+    margin: 47px 0px 0px 42px;
+}
+
+.links-header {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    height: 51px;
+    width: 124px;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-section {
+    width: 600px;
+    padding: 100px 15px 15px 85px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    text-align: justify;
+    margin-top: 47px;
+}
+
+.link-section {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    text-decoration: none;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.links-header:hover, .button-header:hover, .link-section:hover {
+    text-decoration: underline;
+    opacity: .5;
+    transition: 1.5s;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .links-header {
+        display: none;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .button-header {
+        position: absolute;
+        top: 17px;
+        right: 15px;
+        height: 31px;
+        width: 91px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin-top: 150px;
+    }
+
+    .img-section {
+        margin-top: 10vh;
+    }
+
+    .img-section > img {
+        max-width: 312px;
+    }
+
+    .text-section {
+        width: 304px;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    p {
+        margin: 29px 0 0 0;
+        text-align: center;
+    }
+
+    .link-section {
+        margin-top: 26px;
+    }
+    
+}
