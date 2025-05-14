@@ -1,6 +1,6 @@
 ## <p align="center">Projeto Trail App - CSS</p>
 
-<br>
+<br>    
 <br>
 
 <p>Projeto responsivo para desktop e mobile.</p>
